@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Power BI Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* This gives a 16:9 aspect ratio */
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <iframe title="horeca-sales-2023-2024" src="https://app.powerbi.com/reportEmbed?reportId=488aec60-869d-4668-aee1-f5d129a6dd99&autoAuth=true&ctid=3330eacd-141e-4202-b2b6-13ba907fe575" allowfullscreen="true"></iframe>
+    </div>
+</body>
+</html>
